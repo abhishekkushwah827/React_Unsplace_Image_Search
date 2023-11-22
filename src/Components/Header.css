@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #043b16;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    color: white;
+}
+.links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.link{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: white !important;
+}
+.signout{
+    background: none;
+    color: white;
+    font-weight: 500;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}

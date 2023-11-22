@@ -1,0 +1,46 @@
+
+  
+.userCard {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 280px;
+    margin: 10px;
+    background: white;
+    border-radius: 12px;
+}
+.userCard h3{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: goldenrod;
+}
+  
+.infoField {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+.infoField label{
+    margin-right: 5px;
+    color: gray;
+    width: 75px;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-around;
+}
+.buttonGroup button{
+    border: none;
+    width: 60px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+.editBtn{
+    background: blueviolet;
+}
+.deleteBtn{
+    background: red;
+}
+  

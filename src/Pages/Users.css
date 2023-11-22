@@ -1,0 +1,19 @@
+.users{
+    background: whitesmoke;
+    padding: 25px;
+    min-height: 100vh;
+}
+.userList__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.greenBtn{
+    padding: 12px;
+}
+.userList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
